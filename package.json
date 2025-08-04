@@ -9,17 +9,24 @@
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
 		"format": "prettier -w .",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit push"
 	},
 	"dependencies": {
 		"@nuxt/ui": "3.3.0",
+		"drizzle-orm": "^0.44.4",
 		"nuxt": "^4.0.1",
+		"nuxt-auth-utils": "0.5.22",
+		"pg": "^8.16.3",
 		"typescript": "^5.6.3",
 		"vue": "^3.5.18",
 		"vue-router": "^4.5.1"
 	},
 	"devDependencies": {
 		"@nuxt/eslint": "^1.7.1",
+		"@types/pg": "^8.15.5",
+		"drizzle-kit": "^0.31.4",
 		"eslint-plugin-unicorn": "^60.0.0",
 		"prettier": "^3.6.2"
 	}

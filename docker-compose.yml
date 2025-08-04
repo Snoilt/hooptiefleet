@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:16
+    container_name: nuxt-pg
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: dookiefard
+      POSTGRES_DB: hooptiedb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
