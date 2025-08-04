@@ -5,7 +5,7 @@ services:
     container_name: nuxt-pg
     environment:
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: dookiefard
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: hooptiedb
     ports:
       - "5432:5432"

@@ -15,7 +15,9 @@
 	},
 	"dependencies": {
 		"@nuxt/ui": "3.3.0",
+		"@sidebase/nuxt-auth": "1.0.1",
 		"drizzle-orm": "^0.44.4",
+		"next-auth": "~4.21.1",
 		"nuxt": "^4.0.1",
 		"nuxt-auth-utils": "0.5.22",
 		"pg": "^8.16.3",
